@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+  <link href="style.css" type="text/css" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+     <body>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+          </nav>
+         <p> 
+             Academic Portfolio 
+             <ul><li><a href="#aboutsection">About</a></li><li><a href="#skillssection">Skills</a></li><li><a href="#accomplishmentssection">Accomplishments</a></li><li><a href="#contactsection">Contacts</a></li></ul>
+             <h1 class="heading uppercase">Rose Ann Franco</h1>
+             <div class="div-na-may-border" id=aboutsection>
+             <a href="https://scholar.google.com.ph/citations?user=gHNquR8AAAAJ&hl=en" target="_blank">
+                <img src="headshot_roseann_cropped.jpg" width="150" height="200"/></a>
+                <h2 id="about" class="heading uppercase">About</h2>
+             <p>I am a <strong>PhD student</strong> working on <em>cartilage tissue engineering</em> <br>who would like to explore opportunities <br>in the med-tech industry.</p>
+            </div>
+            <div class="div-na-may-border-din" id=skillssection>
+            <h2 class="heading uppercase">Skills</h2>
+            <ul>
+                <li>Cell culture: Mammalian cells, Microbial cells</li>
+                <li>Data analysis</li>
+                <li>Microscopy</li>
+            </ul>
+        </div>
+             <div class="div-na-may-border-din" id=accomplishmentssection>
+                 <h2 class="heading uppercase">Accomplishments</h2>
+                 <ul class="list">
+                     <li>Completed projects on microbial products</li>
+                     <li>Awardee, Talent Search for Young Scientists</li>
+                     <li>Authorship in various international publications</li>
+                 </ul>
+                 <table>
+                     <tr>
+                         <th scope="col">Publications</th>
+                         <th scope="col">Awards</th>
+                         <th scope="col">Presentations</th>
+                     </tr>
+                     <tr>
+                         <td>Preparation and characterization of electrospun PCL/PLGA membranes and chitosan/gelatin hydrogels for skin bioengineering applications</td>
+                         <td>Talent Search for Young Scientists</td>
+                         <td>TERMIS oral presentation</td>
+                     </tr>
+                 </table>
+                 <h3>
+                     <p>Take the Portfolio Quiz!</p>
+                     <script src="./quiz.js"></script>
+                 </h3>
+             </div>
+             <div class="div-na-may-border-din" id=contactsection>
+                 <h2 class="contactform">Contact</h2>
+                 <p>Email: roseann.franco@hdr.qut.edu.au</p>
+                 <p>Linkedin profile:<a href="https://www.linkedin.com/in/rose-ann-franco-39272230/?originalSubdomain=au" target="_blank"> Rose Ann Franco</a></p>
+                 <p>Google Scholar profile: <a href="https://scholar.google.com.ph/citations?user=gHNquR8AAAAJ&hl=en" target="_blank"> Rose Ann Franco</a></p>
+                 <p>Researchgate profile: <a href="https://www.researchgate.net/profile/Rose-Ann-Franco" target="_blank"> Rose Ann Franco</a></p>
+                 <form>
+                     <label for="name">Name:</label>
+                     <br>
+                     <input type="text" name="first-text-field" id="name"
+                     value="" required>
+                     <br> 
+                     <label for="email">Email:</label>
+                     <br>
+                     <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9._%+-]+\.[a-z]{2,}$" required> 
+                     <br>
+                     <label type="number">Mobile number:</label>
+                     <br>
+                     <input type="number" name="mobile" id="mobile" pattern="[0-9]" required>
+                     <br>
+                     <label for="message">Leave your message below.</label>
+                     <br>
+                     <textarea id="textarea" name="textarea" rows="5" cols="30" required></textarea>
+                     <br>
+                     <input type="submit" value="Submit">
+                 </form>
+             </div>
+            </style>
+            </p>
+        <script src="./nav.js"></script>
+        </body>
+</html>
